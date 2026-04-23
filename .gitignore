@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.pt
+preprocessed_data/
+saved_models/
+*.cbm
+*.csv
