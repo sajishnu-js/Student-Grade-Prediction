@@ -2,8 +2,6 @@
 
 A machine learning web application that predicts student grades based on study habits and performance data. Built with CatBoost, FastAPI, and Streamlit.
 
----
-
 
 ## 📊 Dataset
 
@@ -23,7 +21,13 @@ Three models were trained and compared:
 
 **CatBoost was selected as the final model** for deployment due to its superior performance.
 
----
+## 🖥️ Application Features
+
+The Streamlit frontend provides a simple and interactive interface with the following features:
+
+- **Grade Prediction** — Enter student details and instantly predict the grade using the trained CatBoost model
+- **Prediction History** — View all previously predicted grades in a structured table during the session
+- **Clear History** — Reset and clear all predictions with a single click
 
 ## 🛠️ Tech Stack
 
