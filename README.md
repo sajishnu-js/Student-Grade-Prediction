@@ -4,27 +4,6 @@ A machine learning web application that predicts student grades based on study h
 
 ---
 
-## 📁 Project Structure
-
-Project/
-├── api/
-│   ├── main.py                  # FastAPI backend
-│   ├── app.py                   # Streamlit frontend
-│   └── catboost_model.cbm       # Trained CatBoost model
-├── notebooks/
-│   ├── EDA.ipynb                # Exploratory Data Analysis
-│   ├── preprocessing.ipynb      # Data Preprocessing
-│   ├── catboost.ipynb           # CatBoost Model Training
-│   ├── xgboost.ipynb            # XGBoost Model Training
-│   ├── pytorch.ipynb            # PyTorch Neural Network
-│   └── model_comparison.ipynb   # Model Comparison
-├── preprocessed_data/           # Saved train/test splits
-├── saved_models/                # Saved trained models
-├── requirements.txt
-└── README.md
-
-
----
 
 ## 📊 Dataset
 
